@@ -1,11 +1,19 @@
 # fastmath
-A Modern Fortran 
+
 This is a Modern Fortran library for fast, approximate math functions: `exp`, `log`, `1/sqrt`. 
+
 These functions provide fast, approximate evaluations of the exponential, logarithm and normalization functions in 64-bit precision. 
-A detailed explanation of the underlying math with the IEEE-754 representation is reported in ref [1]:<br>.
+
+A detailed explanation of the underlying math with the IEEE-754 representation is reported in ref [1].
+
 For each function, a module is provided; the interface has both simple functions and a programmable object-oriented wrapper. 
 
-This code is released under MIT license; please cite ref [1]:<br> whenever using it.
+References
+==========
+
+This code is released under MIT license; please cite the following reference whenever using it.
+
+[1] F. Perini, R.D. Reitz, "Fast approximations of exponential and logarithm functions combined with efficient storage/retrieval for combustion kinetics calculations" Combustion and Flame 194(2018), 37-51. 
 
 Building, using
 ===============
@@ -33,8 +41,3 @@ make -f makefile.gcc
 
 The testing executable compares performance and accuracy wrt the compiler's intrinsics functions. 
  
-References
-----------
-
-[1] F. Perini, R.D. Reitz, "Fast approximations of exponential and logarithm functions combined with efficient storage/retrieval for combustion kinetics calculations" Combustion and Flame 194(2018), 37-51. 
-
