@@ -21,7 +21,8 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-O2" />
+					<Add option="-O3" />
+					<Add option="-march=native" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -31,7 +32,21 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.f90" />
+		<Unit filename="../src/fast_exp.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../src/fast_log.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../src/fast_rsqrt.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../src/fast_sincos.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../test/test.f90">
+			<Option weight="1" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

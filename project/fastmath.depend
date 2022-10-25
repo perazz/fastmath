@@ -1,7 +1,9 @@
 # depslib dependency file v1.0
-1666687140 source:i:\fastmath\src\fast_exp.f90
+1666689518 source:i:\fastmath\src\fast_exp.f90
 
-1666687712 source:i:\fastmath\src\fast_log.f90
+1666689579 source:i:\fastmath\src\fast_log.f90
 
-1666688191 source:i:\fastmath\src\fast_rsqrt.f90
+1666689511 source:i:\fastmath\src\fast_rsqrt.f90
+
+1666689569 source:i:\fastmath\src\fast_sincos.f90
 

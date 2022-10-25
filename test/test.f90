@@ -162,8 +162,8 @@ program test_fastmath
     ! Test fast exponential
     logical function test_fast_exp() result(success)
 
-        integer, parameter :: nsize = 100000
-        integer, parameter :: ntest = 200
+        integer, parameter :: nsize = 200000
+        integer, parameter :: ntest = 300
         real(real64), parameter :: xmin = -300.0_real64
         real(real64), parameter :: xmax =  300.0_real64
         real(real64), allocatable :: x(:),intrin(:),packge(:),z(:)
