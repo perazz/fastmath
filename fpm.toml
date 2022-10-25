@@ -1,0 +1,19 @@
+name        = "fastmath"
+author      = "Federico Perini"
+copyright   = "Copyright (c) 2022, Federico Perini" 
+license     = "MIT"
+description = "Fast Math Functions"
+homepage    = "https://github.com/perazz/fastmath"
+keywords    = ["exp","log","rsqrt","spline","polynomial"]
+
+[build]
+auto-executables = false
+auto-examples    = false
+auto-tests       = false
+
+[library]
+source-dir  = "src"
+include-dir = "src"
+
+[install]
+library = true
